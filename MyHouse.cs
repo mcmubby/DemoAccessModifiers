@@ -4,12 +4,12 @@ namespace DemoAccessModifiers
 {
     public class MyHouse
     {
-        public static void KnockOnTheDoor()
+        public void KnockOnTheDoor()
         {
             Console.WriteLine("Anyone can knock on the door");
         }
 
-        protected static void UnlockDoorWithKey()
+        protected void UnlockDoorWithKey()
         {
             Console.WriteLine("Only I and trusted friends have the key to the door");
         }
