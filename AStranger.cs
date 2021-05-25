@@ -2,11 +2,11 @@ namespace DemoAccessModifiers
 {
     public class Stranger
     {
-        public void KnockOnTheDoor()
+        public void KnockOnAnyDoor()
         {
             MyHouse houseObject = new MyHouse();
 
-            //A stranger can knock on the door
+            //A stranger can knock on the door through an object of MyHouse
             houseObject.KnockOnTheDoor();
         }
 
